@@ -1,0 +1,98 @@
+.body{
+    background-color: palegoldenrod;
+    background-repeat: no-repeat;
+    background-image: url("https://media.giphy.com/media/mMhpNwrMUXQ3e/giphy.gif");
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 400px 200px 400px;
+    width: 100%;
+    justify-content: center;
+    
+}
+.box{
+    border: 1px black solid;
+    height: 400px;        
+}
+.middle-boxes{
+    border: 1px black solid;
+    width:400px;
+    height:200px;
+}
+.home{
+    border: 1px black solid;
+}
+.fstrow2ndcol{
+    display: grid;
+    grid-template-columns: 66.5px 66.5px 66.5px;
+}
+.fstrow2ndcolboxes{
+    border: 1px black solid;
+    height: 65 .5px;
+}
+.middle-boxes{
+    display: grid;
+    grid-template-columns: 66.5px 66.5px 66.5px 66.5px 66.5px 66.5px;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.white{
+    background-color: white;
+}
+.triangle-down {
+	width: 0px;
+	height: 0px;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-top: 100px solid green;
+    
+}
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid blue;
+
+    }
+
+.homesize{
+    width: 200px;
+    height: 200px;
+}
+.triangle-left{
+	width: 0;
+	height: 0;
+	border-top: 100px solid transparent;
+	border-right: 100px solid yellow;
+	border-bottom: 100px solid transparent;
+    position: absolute;
+    top: 410px;
+}
+.triangle-right{
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-left: 100px solid red;
+    border-bottom: 100px solid transparent;
+    position:absolute;
+    left: 637px;
+}
+.star{
+    background-image: url("https://img.icons8.com/ios-glyphs/30/000000/star--v1.png");
+    background-repeat: no-repeat;
+}
